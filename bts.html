@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a19805ed45.js" crossorigin="anonymous"></script>
+    <title>Dakila ka, San Lorenzo Ruiz</title>
+    <link rel="icon" type="image" href="logo.jpg">
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll; 
+        }
+        header {
+            background-color: #F1DAAE;
+            color: #895D2C;
+            padding: 10px 0;
+            text-align: center;
+            
+        }   
+        nav {
+            background-color: #A3966A;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color:#333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .nav-button {
+            background-color: #A3966A;
+            transition: transform 0.2s ease-in-out;
+
+        }
+        .nav-button:hover {
+        transform: scale(1.1); 
+        background-color: #837b63;
+        padding: 10px 0;
+        }
+
+        body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.scroll-container {
+    width: 1000px; /* Set the width of the container */
+    height: 900px; /* Set the height of the container */
+    overflow: auto; /* Enable scrolling for content that overflows */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+    padding: 10px; /* Optional: Add padding inside the container */
+}
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="videocrop_2.mp4" type="video/mp4">
+      </video>
+    <header>
+        <img src="bts.jpg" height="150" width="98%">
+    </header>
+    <nav>
+        <a href="home.html" class="nav-button">Home</a>
+        <a href="aboutus.html" class="nav-button">About us</a>
+        <a href="products.html"class="nav-button">Products</a>
+        <a href="https://www.facebook.com/profile.php?id=61556091518039" class="nav-button"><i class="fab fa-facebook-f" height="50" width="50"></i></a>
+        <i class="fa-solid fa-envelope" height="50" width="50" class="nav-button"></i>
+        <i class="fa-solid fa-bell" height="50" width="50" class="nav-button"></i>
+    </nav>
+    <center>
+    <div class="scroll-container">
+    <p><img src="btscon.jpg" height="60%" width="80%">
+    <img src="btscon.jpg" height="60%" width="80%"></p>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a19805ed45.js" crossorigin="anonymous"></script>
+    <title>Dakila ka, San Lorenzo Ruiz</title>
+    <link rel="icon" type="image" href="logo.jpg">
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #F1DAAE;
+            color: #895D2C;
+            padding: 10px 0;
+            text-align: center;
+            
+        }   
+        nav {
+            background-color: #A3966A;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color:#333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .nav-button {
+            background-color: #A3966A;
+            transition: transform 0.2s ease-in-out;
+
+        }
+        .nav-button:hover {
+        transform: scale(1.1); 
+        background-color: #837b63;
+        padding: 10px 0;
+        }
+
+        body {
+        overflow-y: scroll;
+        }
+        body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.scroll-container {
+    width: 1000px; /* Set the width of the container */
+    height: 900px; /* Set the height of the container */
+    overflow: auto; /* Enable scrolling for content that overflows */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+    padding: 10px; /* Optional: Add padding inside the container */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+ 
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="homebg.mp4" type="video/mp4">
+      </video>
+    <header>
+        <img src="au.jpg" height="150" width="98%">
+    </header>
+    <nav>
+        <a href="home.html" class="nav-button">Home</a>
+        <a href="bts.html" class="nav-button">Behind The Scenes</a>
+        <a href="products.html"class="nav-button">Products</a>
+        <a href="https://www.facebook.com/profile.php?id=61556091518039" class="nav-button"><i class="fab fa-facebook-f" height="50" width="50"></i></a>
+        <i class="fa-solid fa-envelope" height="50" width="50" class="nav-button"></i>
+        <i class="fa-solid fa-bell" height="50" width="50" class="nav-button"></i>
+    </nav>
+   
+        <div class="row">
+            <div class="column">
+              <div class="card"><img src="syn.jpg" height=300 width=450></div>
+            </div>
+            <div class="column">
+              <div class="card"><img src="au1.jpg" height=300 width=450></div>
+            </div>
+            <div class="column">
+              <div class="card"><img src="aug.jpg" height=300 width=450></div>
+            </div>
+</body>
+</html>
